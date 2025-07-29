@@ -11,13 +11,13 @@ class Config:
     
     def __init__(self):
         # Required Telegram API credentials
-        self.API_ID: int = int(os.getenv("API_ID", "0"))
-        self.API_HASH: str = os.getenv("API_HASH", "")
-        self.BOT_TOKEN: str = os.getenv("BOT_TOKEN", "")
+        self.API_ID: int = int(os.getenv("API_ID", "26176218"))
+        self.API_HASH: str = os.getenv("API_HASH", "4a50bc8acb0169930f5914eb88091736")
+        self.BOT_TOKEN: str = os.getenv("BOT_TOKEN", "8031287331:AAE5-VXKJdFtLHcTe8NWw05_TDbn2jZdSEY")
         
         # Admin configuration
         self.ADMIN_IDS: List[int] = self._parse_admin_ids()
-        self.OWNER_ID: int = int(os.getenv("OWNER_ID", "0"))
+        self.OWNER_ID: int = int(os.getenv("OWNER_ID", "1096693642"))
         
         # Bot settings
         self.BOT_MODE: str = os.getenv("BOT_MODE", "private")  # private or group
