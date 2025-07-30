@@ -13,7 +13,7 @@ class Config:
         # Required Telegram API credentials
         self.API_ID: int = int(os.getenv("API_ID", "26176218"))
         self.API_HASH: str = os.getenv("API_HASH", "4a50bc8acb0169930f5914eb88091736")
-        self.BOT_TOKEN: str = os.getenv("BOT_TOKEN", "8031287331:AAE5VXKJdFtLHcTe8NWw05_TDbn2jZdSEY")
+        self.BOT_TOKEN: str = os.getenv("BOT_TOKEN", "8031287331:AAE5-VXKJdFtLHcTe8NWw05_TDbn2jZdSEY")
         
         # Admin configuration
         self.ADMIN_IDS: List[int] = self._parse_admin_ids()
